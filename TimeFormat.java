@@ -16,24 +16,24 @@ public class TimeFormat {
 
 		if (hours < 12) { 
 			if (minutes<10) {
-				System.err.print(hours + ":0" + minutes );
+				System.out.print(hours + ":0" + minutes );
 				
 			}
 			else {
-				System.err.print(hours + ":" + minutes );
+				System.out.print(hours + ":" + minutes );
 			}
-			System.err.print(" AM");
+			System.out.print(" AM");
 		}
 
 		else {
 			if (minutes<10) {
-				System.err.print(hours-12 + ":0" + minutes );
+				System.out.print(hours-12 + ":0" + minutes );
 				
 			}
 			else {
-				System.err.print(hours-12 + ":" + minutes );
+				System.out.print(hours-12 + ":" + minutes );
 			}
-			System.err.print(" PM");
+			System.out.print(" PM");
 		}
 	}
 }
